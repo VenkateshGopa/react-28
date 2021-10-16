@@ -1,0 +1,52 @@
+.inp{
+    border-radius: 50px;
+    padding: 10px 10px;
+}
+.btn {
+    border-radius: 50px;
+}
+.link{
+    font-size: 14px;
+    color: blue;
+    padding: 0;
+    margin: 0;
+
+}
+/* --------------------------Notfound------------------ */
+.err{
+    font-size: 120px;
+}
+
+
+.navlnk{
+    font-size: 10px;
+}
+.nav a {
+    color: black;
+    /* padding: 5px  20px ; */
+    text-decoration: none;
+}
+
+.nav a:hover,
+.nav a:active,
+.nav a.active {
+    color: rgb(255, 0, 0);
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    /* padding: 5px 20px; */
+    border-radius: 10px;
+}
+.trans{
+    transform: rotate(15deg);
+}
+.transf{
+    transform: rotate(-15deg);
+}
+.fas{
+    color:white;
+    font-size: 30px;
+}
+.te{
+    color: white;
+    font-size: 10px;
+}
