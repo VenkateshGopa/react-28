@@ -13,9 +13,16 @@ const Login = () =>{
                 <label className="text-muted px-2 mb-4"> Remember Me</label>
                 <button className='btn btn-primary form-control mb-1'> Login</button>
                 <hr/>
-                <button className='btn btn-danger form-control mt-1 mb-3'> Login with Google</button>
-                <button className='btn btn-primary form-control mb-1'> Login with Facebook</button>
+                <button className='btn btn-danger form-control mt-1 mb-3' style={{color:'white'}}><i className="fab fa-google fa-fw"></i>Login with Google</button>
+                <button className='btn btn-primary form-control mb-1' style={{color:'white'}}><i className="fab fa-facebook-f fa-fw"></i>Login with Facebook</button>
+
+
                 <hr/>
+
+
+
+
+            
                 <p className='link text-center'>Forget Password?</p>
                 <p className='link text-center'>Create an Account!</p>
             </form>
